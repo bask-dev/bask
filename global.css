@@ -70,7 +70,7 @@
   
   
 /* red button */
-.mobile-red-button{
+.mobileRedButton{
     border: none;
     width: 313px;
     height: 56px;
@@ -122,7 +122,7 @@
 
 .mobile-gray-text{
     font-family: 'Montserrat', sans-serif;
-    font-size: 14.62px;
+    font-size: 16px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -130,6 +130,7 @@
     letter-spacing: normal;
     text-align: left;
     color: #6c6d7b;
+    padding: 0px 32px;
 }
 
 /* layout stuff */
@@ -160,3 +161,16 @@
     color: #ffffff;
   }
 /* layout stuff */
+
+
+
+
+/* image */
+
+
+.mobile-img{
+  height: auto;
+  width: auto;
+  max-width: 375px;
+}
+/* image */
