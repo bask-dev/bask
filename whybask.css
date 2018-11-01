@@ -1,7 +1,7 @@
 /* font family */
 
 
-body{
+.why-body{
     height: 3768px;
 }
 
@@ -23,12 +23,13 @@ body{
     justify-content: center;
 }
 
+
 .why-headline h1{
     color: white;
     font-size: 33px;
 }
 
-.why-answer{
+.why-paragraph{
     position: absolute;
     top: 176px;
     border: solid white 1px;
@@ -43,19 +44,122 @@ body{
 
 .why-second h1{
     position: absolute;
-    border: solid black 1px;
-    height: 112px;
-    width: 312px;
+    /* border: solid black 1px; */
     top: 288px;
     left: 32px;
-    right: 31px;
+    width: 312px;
+    height: 112px;
 }
 
 .why-second p{
     position: absolute;
-    border: solid black 1px;
-    height: 200px;
-    width: 312px;
+    /* border: solid black 1px; */
     top: 416px;
     left: 32px;
+    width: 312px;
+    height: 200px;
+    /* font-family: OpenSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.81;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6c6d7b; */
+
 }
+
+.why-second img{
+    position: absolute;
+    border: solid black 1px;
+    top: 664px;
+    width: 375px;
+    height: 248px;
+
+}
+
+.why-third h1{
+    position: absolute;
+    /* border: solid black 1px; */
+    top: 944px;
+    left: 32px;
+    width: 312px;
+    height: 72px;
+}
+
+.why-third p{
+    position: absolute;
+    /* border: solid black 1px; */
+    top: 1032px;
+    left: 32px;
+    width: 312px;
+    height: 344px;
+}
+
+.why-third button{
+    position: absolute;
+    top: 1408px;
+    left: 31px;
+}
+
+.why-third img{
+    position: absolute;
+    border: solid black 1px;
+    top: 1528px;
+    width: 375px;
+    height: 248px;
+
+}
+
+
+
+
+.why-fourth h1{
+    position: absolute;
+    /* border: solid black 1px; */
+    top: 1808px;
+    left: 32px;
+    width: 312px;
+    height: 112px;
+}
+
+.why-fourth p{
+    position: absolute;
+    /* border: solid black 1px; */
+    top: 1936px;
+    left: 32px;
+    width: 312px;
+    height: 256px;
+}
+
+.why-fourth button{
+    position: absolute;
+    top: 2224px;
+    left: 31px;
+}
+
+
+.why-fifth h1{
+    position: absolute;
+    /* border: solid black 1px; */
+    top: 2344px;
+    left: 32px;
+    width: 312px;
+    height: 72px;
+}
+
+.why-fifth p{
+    position: absolute;
+    /* border: solid black 1px; */
+    top: 2432px;
+    left: 32px;
+    width: 312px;
+    height: 168;
+}
+
+
+
+
+
+
