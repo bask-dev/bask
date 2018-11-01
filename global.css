@@ -26,14 +26,12 @@ header{
 
 .header-connect-button{
     position: relative;
-    /* position: absolute; */
     height: 40px;
     width: 184px;
     background-color: #FF0042;
     color: white;
     border-radius: 30px;
     border: none;
-    /* left: 168px; */
 }
 
 .header-button-logo{
@@ -71,9 +69,9 @@ header{
     border-radius: 28px;
     background-color: #ff0042;
 
-    font-family: Gelion;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.22;

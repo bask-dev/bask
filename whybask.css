@@ -21,6 +21,8 @@
     right: 23px;
     display: flex;
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 
@@ -32,14 +34,21 @@
 .why-paragraph{
     position: absolute;
     top: 176px;
+    right: 48px;
+    left: 55px;
     border: solid white 1px;
     height: 48px;
     width: 272px;
     color: #7B83B9;
     font-size: 14px;
     font-family: Open Sans, Regular;
-    right: 48px;
-    left: 55px;
+
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
 }
 
 .why-second h1{
@@ -49,24 +58,21 @@
     left: 32px;
     width: 312px;
     height: 112px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#fix{
+    font-size: 30px;
 }
 
 .why-second p{
     position: absolute;
-    /* border: solid black 1px; */
     top: 416px;
     left: 32px;
     width: 312px;
     height: 200px;
-    /* font-family: OpenSans;
-    font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.81;
-    letter-spacing: normal;
-    text-align: left;
-    color: #6c6d7b; */
+    
 
 }
 
@@ -86,6 +92,8 @@
     left: 32px;
     width: 312px;
     height: 72px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 .why-third p{
