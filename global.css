@@ -10,10 +10,11 @@ header{
 .inner-header{
     border: solid white 1px;
     height: 40px;
-    width: 329px;
+    /* width: 329px; */
+    width: 84%;
     position: absolute;
     top: 24px;
-    left: 23px;
+    left: 50%; transform: translate(-50%, 0px);
     display: flex;
     justify-content: space-between;
 }
@@ -32,6 +33,7 @@ header{
     color: white;
     border-radius: 30px;
     border: none;
+    
 }
 
 .header-button-logo{
@@ -46,14 +48,14 @@ header{
 
 .header-button-text{
     position: absolute;
-    border: solid white 1px;
+    /* border: solid white 1px; */
     height: 20px;
     width: 120px;
     left: 48px;
     top: 10px;
     color: white;
     font-size: 15px;
-    font-family: Gelion, Medium;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
 
@@ -101,8 +103,8 @@ header{
 /* gray text */
 
 .mobile-gray-text{
-    font-family: OpenSans;
-    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14.62px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;

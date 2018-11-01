@@ -1,5 +1,3 @@
-/* font family */
-
 
 .why-body{
     height: 3768px;
@@ -15,16 +13,13 @@
     position: absolute;
     height: 40px;
     width: 329px;
-    border: solid red 1px;
     top: 128px;
-    left: 23px;
-    right: 23px;
+    left: 50%; transform: translate(-50%, 0px);
     display: flex;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
 }
-
 
 .why-headline h1{
     color: white;
@@ -34,15 +29,12 @@
 .why-paragraph{
     position: absolute;
     top: 176px;
-    right: 48px;
-    left: 55px;
-    border: solid white 1px;
+    left: 50%; transform: translate(-50%, 0px);
     height: 48px;
     width: 272px;
     color: #7B83B9;
     font-size: 14px;
-    font-family: Open Sans, Regular;
-
+    font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -53,9 +45,8 @@
 
 .why-second h1{
     position: absolute;
-    /* border: solid black 1px; */
     top: 288px;
-    left: 32px;
+    left: 50%; transform: translate(-50%, 0px);
     width: 312px;
     height: 112px;
     font-family: 'Montserrat', sans-serif;
@@ -69,11 +60,9 @@
 .why-second p{
     position: absolute;
     top: 416px;
-    left: 32px;
+    left: 50%; transform: translate(-50%, 0px);
     width: 312px;
     height: 200px;
-    
-
 }
 
 .why-second img{
@@ -82,14 +71,13 @@
     top: 664px;
     width: 375px;
     height: 248px;
-
+    left: 50%; transform: translate(-50%, 0px);
 }
 
 .why-third h1{
     position: absolute;
-    /* border: solid black 1px; */
     top: 944px;
-    left: 32px;
+    left: 50%; transform: translate(-50%, 0px);
     width: 312px;
     height: 72px;
     font-family: 'Montserrat', sans-serif;
@@ -98,9 +86,8 @@
 
 .why-third p{
     position: absolute;
-    /* border: solid black 1px; */
     top: 1032px;
-    left: 32px;
+    left: 50%; transform: translate(-50%, 0px);
     width: 312px;
     height: 344px;
 }
@@ -108,7 +95,7 @@
 .why-third button{
     position: absolute;
     top: 1408px;
-    left: 31px;
+    left: 50%; transform: translate(-50%, 0px);
 }
 
 .why-third img{
@@ -117,26 +104,22 @@
     top: 1528px;
     width: 375px;
     height: 248px;
-
+    left: 50%; transform: translate(-50%, 0px);
 }
-
-
 
 
 .why-fourth h1{
     position: absolute;
-    /* border: solid black 1px; */
     top: 1808px;
-    left: 32px;
+    left: 50%; transform: translate(-50%, 0px);
     width: 312px;
     height: 112px;
 }
 
 .why-fourth p{
     position: absolute;
-    /* border: solid black 1px; */
     top: 1936px;
-    left: 32px;
+    left: 50%; transform: translate(-50%, 0px);
     width: 312px;
     height: 256px;
 }
@@ -145,24 +128,21 @@
     position: absolute;
     top: 2224px;
     left: 31px;
+    left: 50%; transform: translate(-50%, 0px);
 }
 
 
 .why-fifth h1{
     position: absolute;
-    /* border: solid black 1px; */
     top: 2344px;
-    left: 32px;
-    width: 312px;
+    left: 50%; transform: translate(-50%, 0px);    width: 312px;
     height: 72px;
 }
 
 .why-fifth p{
     position: absolute;
-    /* border: solid black 1px; */
     top: 2432px;
-    left: 32px;
-    width: 312px;
+    left: 50%; transform: translate(-50%, 0px);    width: 312px;
     height: 168;
 }
 
