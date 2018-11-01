@@ -1,0 +1,55 @@
+header{
+    height: 64px;
+    width: 100%;
+    background-color: #0F174F;
+    color: white;
+}
+
+.inner-header{
+    border: solid white 1px;
+    height: 40px;
+    width: 329px;
+    position: absolute;
+    top: 24px;
+    left: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo{
+    border: solid white 1px;
+    height: 40px;
+    width: 111.5px;
+}
+
+.header-connect-button{
+    position: relative;
+    height: 40px;
+    width: 184px;
+    background-color: #FF0042;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+
+.header-button-logo{
+    position: absolute;
+    border: solid white 1px;
+    height: 16px;
+    width: 24px;
+    top: 12px;
+    left: 16px;
+    bottom: 12px;
+}
+
+.header-button-text{
+    position: absolute;
+    border: solid white 1px;
+    height: 20px;
+    width: 120px;
+    left: 48px;
+    top: 10px;
+    color: white;
+    font-size: 15px;
+    font-family: Gelion, Medium;
+}
