@@ -1,3 +1,5 @@
+/* header */
+
 header{
     height: 64px;
     width: 100%;
@@ -24,12 +26,14 @@ header{
 
 .header-connect-button{
     position: relative;
+    /* position: absolute; */
     height: 40px;
     width: 184px;
     background-color: #FF0042;
     color: white;
     border-radius: 30px;
     border: none;
+    /* left: 168px; */
 }
 
 .header-button-logo{
@@ -52,4 +56,60 @@ header{
     color: white;
     font-size: 15px;
     font-family: Gelion, Medium;
+}
+
+
+
+
+
+/* footer */
+
+/* red button */
+.mobile-red-button{
+    width: 313px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #ff0042;
+
+    font-family: Gelion;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.desktop-red-button{
+    
+}
+
+/* blue headline */
+
+.mobile-blue-headline{
+    font-family: Gelion;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.06;
+    letter-spacing: -0.3px;
+    text-align: left;
+    color: #0f174f;
+}
+
+/* gray text */
+
+.mobile-gray-text{
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.81;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6c6d7b;
 }
