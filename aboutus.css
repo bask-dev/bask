@@ -1,0 +1,41 @@
+.teamWrapper {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 8px 0px;
+}
+.teamMember {
+  width: 152px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.teamImage {
+  width: 152px;
+  height: 200px;
+  background-color: #e4e4e4;
+}
+.teamName {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #0f174f;
+  padding-top: 16px;
+}
+.teamTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.62;
+  letter-spacing: normal;
+  text-align: center;
+  color: #586572;
+}
