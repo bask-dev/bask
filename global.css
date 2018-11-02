@@ -94,6 +94,9 @@
 .desktop-red-button {
 }
 
+/* red button */
+
+
 /* title */
 .mobile-title-left {
   font-family: "Montserrat", sans-serif;
@@ -121,6 +124,9 @@
   padding: 0px 32px;
 }
 
+/* title */
+
+
 /* gray text */
 
 .mobile-gray-text {
@@ -135,6 +141,9 @@
   color: #6c6d7b;
   padding: 0px 32px;
 }
+
+/* gray text */
+
 
 /* layout stuff */
 
@@ -221,6 +230,7 @@
   display: flex;
   justify-content: space-around;
   padding: 38px 83px;
+  /* flex-direction: column; */
 }
 .footerLink {
   width: 74px;
