@@ -1,0 +1,41 @@
+.header-wrapper-index{
+  width: 100%;
+  box-sizing: border-box;
+  background-color: transparent;
+  padding-bottom: 32px;
+  /* position: absolute; */
+  background-image: url(./assets/images/home1.png);
+  background-size: cover;
+  background-position: center;
+  height: 342px;
+}
+
+.whiteTitleIndex {
+  height: 99px;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.91;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding: 64px 12px 8px 12px;
+}
+
+.indexSmallTitle{
+  width: 375px;
+  height: 17px;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #ffffff;
+}
