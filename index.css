@@ -38,4 +38,11 @@
   letter-spacing: -0.1px;
   text-align: center;
   color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.indexHeaderCenter{
+    height: 100px;
+    width: 100px;
+    border: solid black 1px;
 }
