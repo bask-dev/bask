@@ -1,0 +1,40 @@
+.blackSquare {
+  width: 375px;
+  height: 200px;
+  background-color: #000000;
+}
+
+#readMore {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: #ff0042;
+  text-decoration: none;
+  padding-left: 32px;
+}
+
+.navigateButtonContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+.navigateButton {
+  width: 152px;
+  height: 56px;
+  border-radius: 28px;
+  background-color: #0f174f;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
