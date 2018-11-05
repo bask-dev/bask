@@ -1,6 +1,4 @@
-.index{
-    height: 8500px;
-}
+
 
 .header-wrapper-index{
   width: 100%;
@@ -202,16 +200,36 @@
       color: #ff0042;
   }
 
-  .indexLowerImage{
+  .index-wrapper{
       position: relative;
-      /* border: solid black 2px;
-      box-sizing: border-box; */
+      /* border: solid green 2px; */
   }
 
-  .what-is-going{
-      position: absolute;
-      /* top: 0px; */
-      height: 100px;
-      width: 100px;
-      border: solid red 3px;
+  .indexLowerImage{
+      position: relative;
+      /* border: solid black 2px; */
+      box-sizing: border-box;
+  }
+
+  .indexImgOverlap{
+    position: absolute;
+    background-color: white;
+    width: 344px;
+    height: 112px;
+    border-radius: 5px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    bottom: 24px;
+    /* left: 16px; */
+    /* right: 16px; */
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.06;
+    letter-spacing: -0.3px;
+    text-align: center;
+    color: #0f174f;
   }
