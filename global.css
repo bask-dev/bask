@@ -195,6 +195,7 @@
 .footer-wrapper {
   width: 100vw;
   background-color: #00031e;
+  padding-top: 38px;
 }
 
 .social-media-icon-wrapper {
@@ -268,8 +269,6 @@ a {
 }
 /* footer */
 
-
-
 @media (min-width: 700px) {
   .desktopNav {
     display: flex;
@@ -282,9 +281,6 @@ a {
     align-items: center;
     padding-top: 52px;
   }
-  /* .mobile-img {
-    display: none;
-  } */
   .desktopWrapper {
     display: flex;
   }
@@ -303,7 +299,7 @@ a {
     align-items: center;
   }
   .desktopBlockContent {
-    padding-bottom: 50px;
+    padding: 0px 75px;
   }
 
   .whiteTitle {
@@ -336,4 +332,3 @@ a {
     width: 375px;
   }
 }
-
