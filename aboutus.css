@@ -1,8 +1,8 @@
 .teamWrapper {
   display: flex;
-  width: 100vw;
   justify-content: space-around;
   flex-direction: row;
+  flex-wrap: wrap;
   padding: 8px 0px;
 }
 .teamMember {
@@ -10,15 +10,15 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding: 16px 0px;
 }
 .teamImage {
-  width: 152px;
   height: 200px;
   background-color: #e4e4e4;
 }
 .teamName {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -30,7 +30,7 @@
 }
 .teamTitle {
   font-family: "Montserrat", sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -38,4 +38,40 @@
   letter-spacing: normal;
   text-align: center;
   color: #586572;
+}
+.desktopImg {
+  display: none;
+}
+
+@media (min-width: 700px) {
+  .teamWrapper {
+    padding: 64px 152px;
+  }
+  .teamMember {
+    width: 260px;
+    padding: 48px 0px;
+  }
+  .teamImage {
+    height: 320px;
+  }
+  .mobile-img {
+    display: none;
+  }
+  .desktopImg {
+    height: 784px;
+    display: inherit;
+  }
+  .desktopBlock {
+    width: 504px;
+    display: flex;
+    flex-direction: column;
+  }
+  .whiteTitle{
+    width: 1128px;
+    text-align: left;
+  }
+  .header-paragraph{
+    width: 1128px;
+    text-align: left;
+  }
 }
