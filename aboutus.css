@@ -45,11 +45,11 @@
 
 @media (min-width: 700px) {
   .teamWrapper {
-    padding: 64px 152px;
+    padding: 32px 152px;
   }
   .teamMember {
     width: 260px;
-    padding: 48px 0px;
+    padding: 32px 0px;
   }
   .teamImage {
     height: 320px;
@@ -57,21 +57,59 @@
   .mobile-img {
     display: none;
   }
+  .desktopWrapper {
+    display: flex;
+  }
+  .desktopWrapperBottom {
+    display: flex;
+    box-shadow: 0 4px 40px -10px rgba(0, 0, 0, 0.1);
+  }
   .desktopImg {
-    height: 784px;
-    display: inherit;
+    width: 50vw;
+    height: 100%;
+    display: flex;
   }
   .desktopBlock {
-    width: 504px;
     display: flex;
-    flex-direction: column;
+    /* width: 47vw; */
+    justify-content: center;
+    align-items: center;
   }
-  .whiteTitle{
-    width: 1128px;
-    text-align: left;
+  .desktopBlockContent {
+    padding: 50px;
   }
-  .header-paragraph{
-    width: 1128px;
+
+  .whiteTitle {
+    width: 100%;
     text-align: left;
+    padding-left: 0;
+    padding-bottom: 64px;
+    font-size: 52px;
+  }
+  .header-paragraph {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 96px;
+    font-size: 20px;
+  }
+  .desktopTitle {
+    width: 80vw;
+    text-align: center;
+  }
+
+  .mobile {
+    display: none;
+  }
+  .teamName {
+    font-size: 24px;
+  }
+  .teamTitle {
+    font-size: 18px;
+  }
+  .mobile-title-left {
+    font-size: 58px;
+  }
+  .mobile-gray-text {
+    font-size: 20px;
   }
 }
