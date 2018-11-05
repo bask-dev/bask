@@ -24,6 +24,7 @@
   height: 40.56px;
 }
 .header-paragraph {
+  border: solid white 1px;
   width: 272px;
   font-family: OpenSans;
   font-size: 14px;
@@ -60,6 +61,7 @@
 }
 
 .whiteTitle {
+  border: solid white 1px;
   height: 40px;
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   font-family: "Montserrat", sans-serif;
