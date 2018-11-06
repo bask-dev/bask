@@ -1,0 +1,31 @@
+.pricingBoxWrapper {
+  display: none;
+}
+@media (min-width: 700px) {
+  .pricingDesktopContent {
+    width: 65vw;
+  }
+  .pricingDesktopTitle {
+    font-stretch: normal;
+    line-height: 0.91;
+    letter-spacing: normal;
+    text-align: left;
+    width: 100%;
+    padding: 0px;
+  }
+  .mobile-gray-text {
+    width: 100%;
+    padding: 0px;
+  }
+  .pricingBoxWrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .pricingDesktopBox {
+    width: 404px;
+    height: 456px;
+    border: solid 1px #707070;
+    background-color: #ffffff;
+  }
+}
