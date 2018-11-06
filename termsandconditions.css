@@ -1,27 +1,37 @@
-.termsTitle{
-    height: 40px;
-    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-    font-family: "Montserrat", sans-serif;
-    font-size: 27px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 0.91;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-    padding-top: 64px;
-    padding-bottom: 8px;
+.termsTitle {
+  height: 40px;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-family: "Montserrat", sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.91;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 64px;
+  padding-bottom: 8px;
 }
 .termsAndConditions {
-    padding: 0px 32px;
-    font-family: OpenSans;
-    font-size: 9px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.22;
-    letter-spacing: normal;
-    text-align: left;
-    color: #6c6d7b;
+  padding: 0px 32px;
+  font-family: OpenSans;
+  font-size: 9px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6c6d7b;
+}
+
+@media (min-width: 700px) {
+  .termsDesktopContent {
+    width: 65vw;
   }
+  .termsAndConditions {
+    font-size: 14px;
+    padding: 64px 0px;
+  }
+}
