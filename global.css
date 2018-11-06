@@ -38,6 +38,7 @@
 .header-logo {
   width: 117.25px;
   height: 40.56px;
+  /* padding-right: 72px; */
 }
 .header-paragraph {
   width: 272px;
@@ -191,6 +192,13 @@
 /* image */
 
 /* footer */
+.footerContactDesktop {
+  display: none;
+}
+.logoDesktop {
+  display: flex;
+  justify-content: space-between;
+}
 
 .footer-wrapper {
   width: 100vw;
@@ -203,6 +211,7 @@
   display: flex;
   justify-content: space-around;
   padding: 12px 0px;
+  padding-left: 72px;
 }
 .social-media-icon {
   width: 24px;
@@ -233,8 +242,8 @@
 
 .innerFooter {
   display: flex;
-  justify-content: space-between;
-  padding: 26px 32px;
+  justify-content: center;
+  padding: 26px 0px;
 }
 
 .footerLinks {
@@ -266,6 +275,9 @@
 
 a {
   color: #ffffff;
+}
+.copyrightTextDesktop {
+  display: none;
 }
 /* footer */
 
@@ -301,7 +313,6 @@ a {
   .desktopBlockContent {
     padding: 0px 75px;
   }
-
   .whiteTitle {
     width: 100%;
     text-align: left;
@@ -330,5 +341,41 @@ a {
   }
   .footerContact {
     width: 375px;
+  }
+  .footerContactDesktop {
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 0px 32px; */
+    width: 375px;
+  }
+  .header-logo{
+    padding: 0px
+  }
+  .footerDesktop {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+  }
+  .footerLink {
+    font-size: 13px;
+    padding: 0px 24px;
+  }
+  .innerFooter {
+    justify-content: space-between;
+    padding: 36px 138px;
+  }
+  .social-media-icon-wrapper {
+    padding: 12px 16px;
+  }
+  .logoDesktop {
+    display: flex;
+  }
+  .copyrightText {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+  }
+  .copyrightTextDesktop {
+    display: flex;
   }
 }
