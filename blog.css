@@ -2,6 +2,7 @@
   width: 375px;
   height: 200px;
   background-color: #000000;
+  margin-top: 40px;
 }
 
 #readMore {
@@ -22,6 +23,7 @@
   width: 100vw;
   display: flex;
   justify-content: space-around;
+  padding-top: 40px;
 }
 .navigateButton {
   width: 152px;
@@ -37,4 +39,29 @@
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
+}
+
+@media (min-width: 700px) {
+  .blogPostWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .blogPost {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    padding: 0px 64px;
+  }
+  .blackSquare {
+    width: 360px;
+    height: 200px;
+    background-color: #0f174f;
+  }
+  .mobile-title-left {
+    font-size: 32px;
+  }
+  .mobile-gray-text {
+    font-size: 16px;
+  }
 }
