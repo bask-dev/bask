@@ -1,10 +1,9 @@
-
-.center {
+.centerDesk {
   position: relative;
   left: 50%;
   transform: translate(-50%, 0px);
 }
-.header-wrapper {
+/* .header-wrapper {
   width: 100%;
   background-color: #0f174f;
 }
@@ -17,8 +16,8 @@
 .header-logo {
   width: 117.25px;
   height: 40.56px;
-}
-.whiteTitle {
+} */
+/* .whiteTitle {
   height: 40px;
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   font-family: "Montserrat", sans-serif;
@@ -32,9 +31,9 @@
   color: #ffffff;
   padding-top: 64px;
   padding-bottom: 8px;
-}
+} */
 
-.connect-button {
+/* .connect-button {
   width: 184px;
   height: 40px;
   border-radius: 24px;
@@ -43,12 +42,12 @@
   display: flex;
   justify-content: space-between;
   padding: 12px 16px;
-}
-.memberContactIcon {
+} */
+/* .memberContactIcon {
   width: 24px;
   height: 16px;
-}
-.header-button-text {
+} */
+/* .header-button-text {
   width: 120px;
   height: 20px;
   font-family: "Montserrat", sans-serif;
@@ -56,8 +55,11 @@
   font-style: normal;
   text-align: left;
   color: #ffffff;
-}
+} */
 
+.whiteSpace {
+  margin-bottom: 32px;
+}
 .blueTitle {
   position: relative;
   font-family: "Montserrat", sans-serif;
@@ -89,8 +91,6 @@
   color: #ffffff;
 }
 
-
-
 .bodyParagraph {
   font-family: OpenSans;
   font-size: 16px;
@@ -118,4 +118,100 @@
   text-align: center;
   color: #0f174f;
   padding: 12px 0px;
+}
+.contactLowerImage {
+  display: none;
+}
+
+@media (min-width: 700px) {
+  .whiteSpace {
+    margin-bottom: 0px;
+  }
+  .bodyParagraph {
+    color: #7b83b9;
+  }
+  .mobileRedButton {
+    width: 65%;
+  }
+  .header-paragraph {
+    padding-top: 10%;
+  }
+  .contactWrapper {
+    width: 100vw;
+    height: 80vh;
+
+    background-color: #0f174f;
+  }
+  .centerDesk {
+    position: relative;
+    left: 0%;
+    transform: none;
+  }
+  .contentWrapper {
+    width: 68vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .contactContent {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    padding-bottom: 32px;
+  }
+  .blueTitleDesktop {
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.06;
+    letter-spacing: -0.3px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .desktopSubmitButton {
+    display: flex;
+    justify-content: center;
+  }
+  .submit {
+    border-radius: 0px 28px 28px 0px;
+    width: 30%;
+  }
+  .digitalCode {
+    height: 56px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+  }
+  .contactLowerWrapper {
+    width: 100vw;
+  }
+  .contactLowerImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 75vh;
+    background-image: url("./assets/images/desk7@2x.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+  }
+  .callBox{
+    width: 45vw;
+    height: 50vh;
+    border-radius: 5px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffffe5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
