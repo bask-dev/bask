@@ -40,8 +40,21 @@
   text-align: center;
   color: #ffffff;
 }
+.catagoriesWrapper {
+  display: none;
+}
+.catagoriesContent {
+  display: none;
+}
 
 @media (min-width: 700px) {
+  .navigateButtonContainer {
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 104px;
+    padding-left: 60px;
+  }
   .blogPostWrapper {
     display: flex;
     flex-direction: row;
@@ -60,8 +73,29 @@
   }
   .mobile-title-left {
     font-size: 32px;
+    padding: 0px;
   }
   .mobile-gray-text {
     font-size: 16px;
+    padding: 0px;
   }
+  #readMore {
+    padding: 0px;
+  }
+  .catagoriesWrapper {
+    position: absolute;
+    top: 550px;
+    right: 100px;
+    display: inherit;
+    width: 368px;
+    height: 920px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  .catagoriesContent {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0px 0px 32px;
+  }
+
 }
