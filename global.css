@@ -348,8 +348,8 @@ a {
     /* padding: 0px 32px; */
     width: 375px;
   }
-  .header-logo{
-    padding: 0px
+  .header-logo {
+    padding: 0px;
   }
   .footerDesktop {
     display: flex;
