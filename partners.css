@@ -1,0 +1,22 @@
+
+
+@media (min-width: 700px) {
+    .partnersDesktopContent{
+        
+    }
+    .partnerDesktopTitle{
+        padding-top:200px;
+        height: 40px;
+        text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 0.91;
+        letter-spacing: normal;
+        text-align: left;
+        padding: 64px 46px 8px 46px;
+    }
+}
+
+
