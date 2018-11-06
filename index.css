@@ -50,18 +50,13 @@
   background-color: #ffffff;
 }
 
-.indexHeaderCenter div{
-  padding-top: 24px;
-  margin: auto;
-  width: 280px;
-}
 
 .indexHeaderCenter img{
+    padding-top: 24px;
     width: auto;
     height: auto;
     max-width: 280px;
     border-radius: 5px;
-    margin: auto;
 }
 
   .indexRedTitle{
