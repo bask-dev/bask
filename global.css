@@ -95,7 +95,7 @@
 .mobileRedButton {
   border: none;
   /* width: 313px; */
-  width: 28vw;
+  width: 70vw;
   height: 56px;
   border-radius: 28px;
   background-color: #ff0042;
@@ -386,4 +386,8 @@ a {
   .copyrightTextDesktop {
     display: flex;
   }
+
+
+
+
 }
