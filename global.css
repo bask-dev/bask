@@ -94,7 +94,8 @@
 /* red button */
 .mobileRedButton {
   border: none;
-  width: 313px;
+  /* width: 313px; */
+  width: 28vw;
   height: 56px;
   border-radius: 28px;
   background-color: #ff0042;
@@ -314,7 +315,9 @@ a {
     align-items: center;
   }
   .desktopBlockContent {
-    padding: 0px 75px;
+    padding: 0px 25px;
+    display: flex;
+    flex-direction: column;
   }
   .whiteTitle {
     width: 100%;
@@ -337,10 +340,12 @@ a {
     display: none;
   }
   .mobile-title-left {
-    font-size: 58px;
+    /* font-size: 58px; */
+    font-size: 5vw;
   }
   .mobile-gray-text {
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.3vw;
   }
   .footerContact {
     width: 375px;
