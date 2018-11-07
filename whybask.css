@@ -36,3 +36,57 @@
   color: #ffffff;
   padding: 0px 32px;
 }
+
+@media (min-width: 700px){
+  .whyDesktopTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 490px;
+  }
+  
+  .whyDesktopTitleWrapper{
+    width: 60%;
+  }
+
+  .why5050{
+    height: 720px;
+    border: solid black 1px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    width: 100vw;
+    margin-top: 55px;
+    align-items: center;
+    /* flex-direction: column; */
+  }
+  
+  .why5050left{
+    /* border: solid red 1px; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 7% 3%;
+    box-sizing: border-box;
+  }
+  
+  .why5050right{
+    /* border: solid green 1px; */
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+  .why5050rightimg{
+    /* border: solid red 2px; */
+    max-height: 100%;
+    /* min-width: 100%; */
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    
+  }
+
+
+}
