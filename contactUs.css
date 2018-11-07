@@ -37,12 +37,20 @@
   text-align: center;
   color: #ffffff;
 }
+
+.contactWrapper{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 64px;
+}
 .callUsContainer {
   width: 296px;
   border-radius: 4px;
   box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
-  padding: 0px 32px 32px 32px;
+  /* padding: 0px 32px 32px 32px; */
 }
 .contactIconWrapper {
   position: relative;
@@ -89,4 +97,15 @@
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
+}
+
+
+@media (min-width: 700px) {
+  .contactWrapper{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .mobile {
+    display: none;
+  }
 }

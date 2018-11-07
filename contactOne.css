@@ -149,8 +149,20 @@
   .mobileRedButton {
     width: 65%;
   }
-  .header-paragraph {
+  .header-paragraph-contact {
     padding-top: 10%;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7b83b9;
+    padding-bottom: 80px;
   }
   .contactWrapper {
     width: 100vw;
