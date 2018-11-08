@@ -135,9 +135,19 @@
   color: #0f174f;
   padding: 12px 0px;
 }
-/* .contactLowerImage {
-  display: none;
-} */
+
+.header-paragraph-contact{
+  width: 272px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7b83b9;
+}
 
 @media (min-width: 700px) {
   .whiteSpace {
@@ -152,11 +162,8 @@
     width: 82%;
   }
   .header-paragraph-contact {
-    padding-top: 10%;
-    width: 100%;
-    text-align: left;
-    font-size: 20px;
     font-family: "Montserrat", sans-serif;
+    font-size: 14px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -164,12 +171,11 @@
     letter-spacing: normal;
     text-align: left;
     color: #7b83b9;
-    padding-bottom: 80px;
+    width: 100%;
+    text-align: left;
+    padding: 96px 0px;
+    font-size: 20px;
   }
-  /* .contactWrapper {
-    width: 100vw;
-    background-color: #0f174f;
-  } */
   .centerDesk {
     position: relative;
     left: 0%;
