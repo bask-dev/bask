@@ -38,7 +38,6 @@
 .header-logo {
   width: 117.25px;
   height: 40.56px;
-  /* padding-right: 72px; */
 }
 .header-paragraph {
   width: 272px;
@@ -94,7 +93,6 @@
 /* red button */
 .mobileRedButton {
   border: none;
-  /* width: 313px; */
   width: 70vw;
   height: 56px;
   border-radius: 28px;
@@ -108,9 +106,6 @@
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-}
-
-.desktop-red-button {
 }
 
 /* red button */
@@ -285,6 +280,10 @@ a {
 }
 /* footer */
 
+.desktop{
+  display: none;
+}
+
 @media (min-width: 700px) {
   .desktopNav {
     display: flex;
@@ -340,11 +339,9 @@ a {
     display: none;
   }
   .mobile-title-left {
-    /* font-size: 58px; */
     font-size: 5vw;
   }
   .mobile-gray-text {
-    /* font-size: 20px; */
     font-size: 1.3vw;
   }
   .footerContact {
@@ -353,7 +350,6 @@ a {
   .footerContactDesktop {
     display: flex;
     justify-content: space-evenly;
-    /* padding: 0px 32px; */
     width: 375px;
   }
   .header-logo {
@@ -387,7 +383,38 @@ a {
     display: flex;
   }
 
+  .mobileRedButton{
+    width: 30vw;
+  }
+  .contactLowerWrapper {
+    width: 100vw;
+    background-color: #0f174f;
+  }
+  .contactWrapper {
+    width: 100vw;
+    background-color: #0f174f;
+  }
+  .contactLowerImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 45vw;
+    background-image: url(./assets/images/desk7@2x.png);
+    background-position: center;
+    background-size: cover;
+  }
 
-
+  .callBox {
+    width: 45vw;
+    border-radius: 5px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fffffff3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 32px;
+  }
 
 }

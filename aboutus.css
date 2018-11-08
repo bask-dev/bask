@@ -74,11 +74,11 @@
     justify-content: space-evenly;
     padding-left: 10%;
   }
-  .inner-header {
+  /* .inner-header {
     justify-content: space-around;
     align-items: center;
     padding-top: 52px;
-  }
+  } */
   .teamWrapper {
     padding: 32px 152px;
   }

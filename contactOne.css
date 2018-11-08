@@ -134,9 +134,9 @@
   color: #0f174f;
   padding: 12px 0px;
 }
-.contactLowerImage {
+/* .contactLowerImage {
   display: none;
-}
+} */
 
 @media (min-width: 700px) {
   .whiteSpace {
@@ -165,10 +165,10 @@
     color: #7b83b9;
     padding-bottom: 80px;
   }
-  .contactWrapper {
+  /* .contactWrapper {
     width: 100vw;
     background-color: #0f174f;
-  }
+  } */
   .centerDesk {
     position: relative;
     left: 0%;
@@ -217,12 +217,11 @@
     align-items: center;
     width: 65%;
   }
-  .contactLowerWrapper {
+  /* .contactLowerWrapper {
     width: 100vw;
-    /* padding-top: 10%; */
     background-color: #0f174f;
-  }
-  .contactLowerImage {
+  } */
+  /* .contactLowerImage {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -231,8 +230,8 @@
     background-image: url(./assets/images/desk7@2x.png);
     background-position: center;
     background-size: cover;
-  }
-  .callBox {
+  } */
+  /* .callBox {
     width: 45vw;
     border-radius: 5px;
     box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);
@@ -242,5 +241,5 @@
     justify-content: center;
     align-items: center;
     padding: 48px 32px;
-  }
+  } */
 }
