@@ -6,6 +6,7 @@
     width: 65vw;
   }
   .pricingDesktopTitle {
+    display: inherit;
     font-stretch: normal;
     line-height: 0.91;
     letter-spacing: normal;

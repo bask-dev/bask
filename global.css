@@ -284,6 +284,10 @@ a {
   display: none;
 }
 
+.contactLowerImage {
+  display: none;
+}
+
 @media (min-width: 700px) {
   .desktopNav {
     display: flex;
