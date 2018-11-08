@@ -91,7 +91,8 @@
 .mobileRedButton {
   border: none;
   /* width: 313px; */
-  width: 32vw;
+  /* width: 32vw; */
+  width: 75vw;
   height: 56px;
   border-radius: 28px;
   background-color: #ff0042;
@@ -148,7 +149,7 @@
     text-align: left;
   }
   .mobileRedButton {
-    width: 65%;
+    width: 82%;
   }
   .header-paragraph-contact {
     padding-top: 10%;
