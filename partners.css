@@ -8,11 +8,12 @@
     letter-spacing: normal;
     text-align: left;
     width: 100%;
-    padding: 64px 46px 16px 0px;
+    padding: 64px 46px 16px 248px;
+    
   }
   .mobile-gray-text {
     width: 100%;
     padding-bottom: 300px;
-    padding-left: 0px;
+    padding-left: 248px;
   }
 }
