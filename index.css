@@ -230,63 +230,58 @@
       margin-top: 5px;
   } */
 
-
-  
-
-  .header-wrapper-index-desktop{
-    height: 70vh;
-    background-image: url(./assets/images/desk1.png);
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position: right;  
-    /* transform: translate(10px)   */
-  }
-
-
-  .header-title{
-    border: solid red 1px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 25vh;
-    margin-top: 6vh;
-  }
-
-  .header-title h1{
-    border: solid red 1px;
-    color: white;
-    font-size: 11vw;
-    width: 86vw;
-    margin: auto;
-    text-align: center;
-  }
-
   .inner-header{
-    margin-bottom: 16vh;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
   }
 
-  .header-title p{
-    font-family: OpenSans;
-    border: solid red 1px;
-    margin-top: 10px;
-    font-weight: normal;
+  .indexImage{
+    width: 100vw;
+    opacity: 0.8;
+  }
+
+
+.indexTop{
+  border: solid red 1px;
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+}
+
+.indexBottom h1{
+  border: solid red 1px;
+  height: 10vh;
+  width: 86vw;
+  position: absolute;
+  top: 10vh;
+  left: 7vw;
+  margin: auto;
+  font-size: 8vw;
+  color: white;
+  text-align: center;
+
+}
+
+.indexBottom p{
+  border: solid green 1px;
+  position: absolute;
+  height: 4vh;
+  width: 86vw;
+  left: 7vw;
+  top: 22vh;
+  font-size: 3.6vw;
+  color: white;
+
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-family: OpenSans;
+  font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.25;
   letter-spacing: -0.1px;
   text-align: center;
   color: #ffffff;
-  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-  width: 86vw;
-  font-size: 3.6vw;
-  }
-
-  .laptops-index{
-    border: solid red 1px;
-    /* margin-top: 10vh; */
-    height: 58vh;
-    width: 86vw;
-    margin: auto;
-  }
+}
   
